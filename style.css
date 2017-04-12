@@ -1,22 +1,49 @@
 
 .first{
-	border: 2px solid orange;
+	border:2px solid orange;
 	display:block;
 	margin:0 auto;
+	padding:10px;
 	text-align:center;
 	position:relative;
-
-    
+	max-width:100%;
+	height:auto;
 }
+ 
 .one  {
 	border:2px solid orange;
     display:inline-block;
-
-
 }
-}
-
+body {
+	background:-webkit-linear-gradient(#F8D159,#B0E5C8);
 }
 
+ @media screen and (min-width: 800px) {
+	body {
+		background:-webkit-linear-gradient(#ADB1B7, #5970F2);
+		
+	}
+}
 
 
+
+
+
+h1  {
+	font-size: 1.5em;
+}
+@media all and (min-width: 960px) {
+  body {
+        font-size:2.0em;
+    }
+ }
+ @media all and (max-width: 960px) and (min-width: 600px) {
+ 	body  {
+ 		font-size: 0.9em;
+ 	}
+ }
+ @media all and (max-width: 600px) {
+ 	body  {
+ 		font-size:0.4em;
+ 	}
+ }
